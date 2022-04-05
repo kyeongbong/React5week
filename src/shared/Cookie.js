@@ -20,7 +20,7 @@ const setCookie = (name, value, exp = 5) => {
   date.setTime(date.getTime() + exp*24*60*60*1000);
   // exp * 24시간 * 60분 * 60초 * 1000밀리세컨드(1초)
 
-  document.cookie = `${name}=${value}; expires=${date.toUTCstring()}`;
+  document.cookie = `${name}=${value};expires=${date.toUTCString()};path=/`;
 };
 
 const deleteCookie = (name) => {
