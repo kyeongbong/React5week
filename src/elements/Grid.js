@@ -11,9 +11,6 @@ const Grid = (props) => {
       padding: padding,
       bg: bg,
   };
-
-  // console.log({...styles})
-
   return (
     <React.Fragment>
       <GridBox {...styles}>{children}</GridBox>

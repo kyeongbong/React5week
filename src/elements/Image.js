@@ -31,9 +31,9 @@ const Image = (props) => {
 }
 
 Image.defaultProps = {
-    shape: "circle",
-    src: "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAyMjhfNjEg%2FMDAxNjQ2MDM0MTkyOTYx.PWa_nDcZDiBA_KX6UAc72T8qmgGHN4IawIOTDOkqQ84g.truc1McnxFZW_1ezBnry5QZHj-NV_M3wptU4fV-S1wwg.PNG.mochimon%2Fillust%25A3%25DF96570226%25A3%25DF20220228%25A3%25DF004105.png&type=a340",
-    size: 36,
+  shape: "circle",
+  src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Dzwfu1DsI84_zwByvj7Pr3f-hddC85bS_Q&usqp=CAU",
+  size: 36,
 };
 
 const AspectOutter = styled.div`
